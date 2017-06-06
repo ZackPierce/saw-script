@@ -1,0 +1,10 @@
+[package]
+name = "minimal_rust"
+version = "0.1.0"
+authors = ["Zachary Pierce <zpierce@polysync.io>"]
+
+[lib]
+name = "minimal_rust"
+crate-type = ["staticlib"] # could be `dylib` as well
+
+[dependencies]

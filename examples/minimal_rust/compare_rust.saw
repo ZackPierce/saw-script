@@ -1,0 +1,3 @@
+print "Extracting rust bitcode";
+l <- llvm_load_module "out/minimal_rust.bc";
+print "Unexpectedly got further than loading the module";
